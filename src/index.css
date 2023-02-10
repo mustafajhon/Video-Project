@@ -1,6 +1,5 @@
 .e {
   background-color: beige;
-  border: 1px solid black;
 }
 .conain {
   display: flex;
@@ -14,4 +13,26 @@
 }
 .conain h2 {
   text-align: center;
+}
+
+.lg {
+  border-radius: 50%;
+}
+.container {
+  border-radius: 7px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  color: white;
+  background-color: blueviolet;
+}
+button {
+  margin: 10px;
+}
+span {
+  line-height: 1.3rem;
+  font-weight: 500;
+  font-size: larger;
 }

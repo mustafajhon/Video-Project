@@ -1,4 +1,5 @@
 import React from "react";
+import Counter from "./Components/counter";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <h2>This is footer box</h2>
         </div>
       </div>
+      <Counter />
     </>
   );
 }
