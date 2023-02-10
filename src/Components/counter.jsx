@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+
 function Counter() {
   const [count, func] = useState(0);
-  const [Number, funct] = useState(10);
   return (
     <>
       <div className="container">
@@ -24,10 +24,6 @@ function Counter() {
         >
           Increament
         </button>
-      </div>
-      <div className="box">
-        <span>{Number}</span>
-        <h2>Numbers</h2>
       </div>
     </>
   );
