@@ -36,3 +36,17 @@ span {
   font-weight: 500;
   font-size: larger;
 }
+.box {
+  background-color: gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.answer {
+  background-color: goldenrod;
+  display: flex;
+  margin-left: 15px;
+  border-radius: 20px;
+  padding: 12px;
+}
