@@ -36,3 +36,69 @@ span {
   font-weight: 500;
   font-size: larger;
 }
+h2 {
+  color: red;
+  text-align: center;
+  font-weight: 1000;
+}
+.container-fluid {
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+.box {
+  display: flex;
+  border: 1px solid black;
+  margin: 12px auto;
+  border-radius: 14px;
+  align-items: center;
+  justify-content: center;
+}
+.container1 {
+  background-color: aquamarine;
+  width: 100%;
+  height: 50vh;
+  border-radius: 16px;
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.box1 {
+  background-color: beige;
+  height: 50%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+}
+.left {
+  margin-left: 17px;
+}
+.right {
+  margin-right: 17px;
+}
+.span {
+  background-color: blueviolet;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 48%;
+}
+.red {
+  background-color: brown;
+  border-radius: 49%;
+  min-height: 80px;
+  width: 80px;
+}
+h1 {
+  text-align: center;
+}
+.span:hover {
+  background-color: brown;
+}
+
+button {
+  border-radius: 12px;
+}
